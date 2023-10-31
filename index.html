@@ -17,13 +17,31 @@
                 <div clas="Search-Github">Search GitHub search-users</div>
                 <div class="subtitle">Enter a username to fetch a user profile and repos</div>
                     <div class="search-box">
-                        <input type="text" id="searh" placeholder="enter user name" onkeypress="search(event)"/>
+                        <input type="text" id="searh" placeholder="enter user name" />
+                        <button class="btn">search</button>
                         </div>
 
             </dic>
         </div>
-        <div class="profile">
-
+        <div class="profile-container">
+            <div class="profile-img">
+                <img src="" alt="avatar"/>
+            </div>
+            <div class="profile-row">
+                <ul class="profile-lis-row">
+                    <li class = "public-repos"></li>
+                    <li class = "public-Gists"></li>
+                    <li class = "follwers"></li>
+                    <li class = "following"></li>
+                    </ul>
+                </div>
+            <div class="profile-colum">
+                <ul class="profile-list">
+                    <li class="profile-name">Company : </li>
+                    <li class="profile-username">Website/ Blog</li>
+                    <li class="profile-location">Location</li>
+                    <li class="profile-bio">Member Since : </li>
+            </div>
         </div>
         <div class="repo-list" id="list">
         </div>
