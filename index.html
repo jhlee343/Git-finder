@@ -18,29 +18,42 @@
                 <div class="subtitle">Enter a username to fetch a user profile and repos</div>
                     <div class="search-box">
                         <input type="text" id="searh" placeholder="enter user name" />
-                        <button class="btn">search</button>
                         </div>
 
             </dic>
         </div>
         <div class="profile-container">
             <div class="profile-img">
-                <img src="" alt="avatar"/>
+                <img src="" alt="avatar" id = "img"/>
             </div>
             <div class="profile-row">
-                <ul class="profile-lis-row">
-                    <li class = "public-repos"></li>
-                    <li class = "public-Gists"></li>
-                    <li class = "follwers"></li>
-                    <li class = "following"></li>
-                    </ul>
+                <div class="profile-list-row">
+                    <label>Public Repos: </label>
+                    <span id = "repo"></spane>
+                    
+                    <label>Public Repos: </label>
+                    <span id = "gists"></spane>
+                
+                    <label>Public Repos: </label>
+                    <span id = "follwers"></spane>
+                    
+                    <label>Public Repos: </label>
+                    <span id = "following"></spane>
+                    </div>
                 </div>
-            <div class="profile-colum">
-                <ul class="profile-list">
-                    <li class="profile-name">Company : </li>
-                    <li class="profile-username">Website/ Blog</li>
-                    <li class="profile-location">Location</li>
-                    <li class="profile-bio">Member Since : </li>
+            <div class="profile-column">
+                <div class="profile-list">
+                    <label>Company :  </label>
+                    <span id = "company"></spane>
+                    
+                    <label>website/blog: </label>
+                    <span id = "address"></spane>
+                
+                    <label>Location : </label>
+                    <span id = "location"></spane>
+                    
+                    <label>Member Since : </label>
+                    <span id = "date"></spane>                </div>
             </div>
         </div>
         <div class="repo-list" id="list">
